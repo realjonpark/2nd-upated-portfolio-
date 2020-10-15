@@ -1,0 +1,227 @@
+
+/* -------  General Styles ------- */
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
+header {
+  background-color: #Fbe8a6;
+  margin-bottom: 40px;
+}
+
+.logo {
+  font-family: 'Kalam', cursive;
+  font-size: 72px;
+  color: #303c6c;;
+  text-align: center;
+  letter-spacing: -3;
+  margin: 0;
+  padding: 20px 0 0 0;
+}
+
+
+/* ---  Navigation --- */
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 0;
+}
+
+header nav ul li {
+  list-style-type: none;
+}
+
+header nav ul li a {
+  color: #303c6c;;
+  text-decoration: none;
+  padding: 0 20px 0 0;
+font-family: 'Open Sans', sans-serif;
+}
+
+header nav ul li a:hover {
+  color: #303c6c;
+}
+
+@media all and (min-width: 700px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logo {
+    margin: 14px 0 14px 20px;
+    padding-top: 0;
+    font-size: 42px;
+  }
+  
+  header nav {
+    margin-top: 14px;
+  }
+}
+
+/* ---  Primary Groups --- */
+
+main {
+  padding: 20px 0;
+}
+
+section {
+  margin-bottom: 100px;
+}
+
+.container{
+  max-width: 960px;
+  margin: auto;
+  padding: 0 30px;
+}
+
+
+section.sky-blue {   
+  background-color: #d2fdff;
+  max-width: 960px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin: 80px 0;
+}
+
+footer {
+  background-color: #Fbe8a6;
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+
+/* ---  Typography --- */
+
+
+h1 {
+  font-size: 28px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: #303c6c;
+}
+
+h2 {
+  font-size: 26px;
+ font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  margin: 0 10px;
+}
+
+h3 {
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+}
+
+p {
+ font-family: 'Open Sans', sans-serif;
+ line-height: 1.5em;
+ margin-bottom: 0;
+}
+
+main a {
+	font-weight: 700;
+	text-decoration: none;	
+}
+
+main  a:link { color: #303c6c; }
+main  a:visited { color: #303c6c; }
+main  a:hover { color: #303c6c; }
+a:active { color: #403933; }
+
+
+
+a:hover {
+	text-decoration: underline;	
+}
+
+footer p {
+  color: #303c6c;
+  text-align: center;
+  padding: 40px;
+}
+
+
+main img {
+  width: 100%;
+}
+
+img.image-enhanced {
+  border-radius: 8px;
+}
+
+.group {
+  display: flex;
+  flex-direction: row;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
+.item-double {
+  flex: 2;
+}
+
+
+
+/* ---  (Desktop) Groups & Items --- */
+
+@media all and (min-width: 800px) {
+  section {
+    padding: 0 20%;
+  }
+  .group {
+    flex-direction: row;
+  }
+}
+
+
+/* Contact Form Design */
+
+form {
+  padding-right: 8px;
+  /* Fixed small sizing issue on the right */
+}
+
+form label {
+  display: block;
+}
+
+form input, 
+form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+form textarea {
+  height: 160px;
+}
+
+
+
+iframe{
+  height: 300px;
+  width: 600px;
+  max-width: 100%;
+
+}
+
+img{
+  height: 300px;
+  width:600px;
+  max-width:100%;
+}
