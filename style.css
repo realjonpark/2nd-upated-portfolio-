@@ -164,7 +164,7 @@ img.image-enhanced {
 
 .group {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .item {
@@ -220,8 +220,10 @@ iframe{
 
 }
 
-img{
-  height: 300px;
-  width:600px;
-  max-width:100%;
+item-jon-popsicle-img{
+    max-width: 50%;
+    height: 50%;
 }
+
+
+
